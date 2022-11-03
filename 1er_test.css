@@ -9,3 +9,13 @@
     color: chocolate ;
     font-weight: bold;
 }
+
+a[href="page2.html"]
+{
+    font-style: italic;
+}
+
+a[href*="page"]
+{
+    font-size: 40px;
+}
