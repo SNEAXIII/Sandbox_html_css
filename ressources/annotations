@@ -1,0 +1,29 @@
+mettre dans le html |class=| --> .variable dans le css --> multiple items
+mettre dans le html |id=| --> #variable dans le css --> unique item
+sélectionner la valeur exacte dans un attribut dans le css --> nomVariable[attribut="valeur"]
+sélectionner une valeur contenue dans un attribut dans le css --> nomVariable[attribut*="valeur"]
+ajouter une font custom --> dl le webkit --> mettre les bons fichier dans un dossier --> récuperer le stylesheet et le mettre dans son css
+choisir des fonts a afficher dans l'ordre de priorité --> "font-family: font1,font2...."
+positionner le texte --> text-align
+modifier la taille d'un caractère en valeur absolue --> px
+modifier la taille d'un caractère en valeur relative --> em
+liste de font classique : Arial, Arial Black, Comic Sans MS, Courier New, Georgia, Impact, Times New Roman, Trebuchet MS, Verdana
+box shadow: +x, -y, taille, couleur
+margin/padding: +y, +x, -y, -x
+margin/padding: +&-y, +&-x
+border: tailleContour, typeBord, couleur
+center un bloc : définir une taille avec margin : auto
+si le texte sort en y d'un bloc avec une taille prédéfinie --> overflow
+si le texte sort en x d'un bloc avec une taille prédéfinie --> word-wrap:break_word
+
+
+structure{
+<header> : en-tête ;
+<footer> : pied de page ;
+<nav> : liens principaux de navigation ;
+<section> : section de page ;
+<aside> : informations complémentaires ;
+<article> : article indépendant;
+}
+
+liste balises : https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1608357-memento-des-balises-html

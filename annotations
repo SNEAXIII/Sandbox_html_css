@@ -1,4 +1,0 @@
-pour mettre dans le html |class=| --> .variable dans le css --> multiple items
-pour mettre dans le html |id=| --> #variable dans le css --> unique item
-pour sélectionner la valeur exacte dans un attribut dans le css --> nomVariable[attribut="valeur"]
-pour sélectionner une valeur contenue dans un attribut dans le css --> nomVariable[attribut*="valeur"]

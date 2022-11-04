@@ -1,0 +1,102 @@
+/* exemple de classe */
+
+.class_test
+{
+    color: greenyellow;
+    font-weight: bold;
+}
+
+/* exemple d'id */
+
+#id_test
+{
+    color: chocolate ;
+    font-weight: bold;
+}
+
+/* toutes les références qui sont égale à "page2.html" */
+
+a[href="page2.html"]
+{
+    font-style: italic;
+}
+
+/* toutes les références qui comprennent "page2.html" */
+
+a[href*="page"]
+{
+    font-size: 40px;
+}
+
+.ligneAuDessus
+{
+    text-decoration : overline;
+}
+
+.imageFlottante
+{
+    float: left;
+}
+
+.clearImageFlottante
+{
+    clear: both;
+}
+
+.paragrapheJustifie
+{
+    text-align: justify;
+}
+
+.bleu
+{
+    color: rgb(47, 154, 186);
+}
+
+/*
+body
+{
+    background: url("Background.jpg") no-repeat;
+}
+*/
+
+.coloriseEnRouge
+{
+    background-color: darkred;
+}
+
+h2 /*box-shadow,text-shadow*/
+{
+    border: 2px red solid;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px black;
+    text-shadow: 6px 6px 6px red;
+}
+
+h1:hover
+{
+    color:green;
+    border-left: 20px solid black;
+}
+
+/*a:focus*/
+/*{*/
+/*    color:greenyellow;*/
+/*}*/
+
+a:visited
+{
+    color: #AAA;
+}
+a:active
+{
+    border-left: 50px solid unset;
+    color: red;
+}
+
+p
+{
+    text-align: justify;
+    padding: 12px; /* Marge interne */
+    margin: 50px; /* Marge externe */
+}
