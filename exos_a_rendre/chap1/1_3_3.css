@@ -1,0 +1,11 @@
+.cadre {
+    border: 1px black solid;
+    width: 400px;
+    height: 170px;
+    padding: 5px 10px;
+}
+
+strong{
+    font-weight: bold;
+    font-size: 1.1em;
+}

@@ -9,6 +9,8 @@ modifier la taille d'un caractère en valeur absolue --> px
 modifier la taille d'un caractère en valeur relative --> em
 liste de font classique : Arial, Arial Black, Comic Sans MS, Courier New, Georgia, Impact, Times New Roman, Trebuchet MS, Verdana
 box shadow: +x, -y, taille, couleur
+padding --> Marge interne
+margin --> Marge externe
 margin/padding: +y, +x, -y, -x
 margin/padding: +&-y, +&-x
 border: tailleContour, typeBord, couleur
@@ -27,3 +29,4 @@ structure{
 }
 
 liste balises : https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1608357-memento-des-balises-html
+strat ultime pour les croissants --> http://www.thelin.net/laurent/labo/html/mailto.html

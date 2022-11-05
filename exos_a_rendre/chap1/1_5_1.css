@@ -1,0 +1,13 @@
+#box
+{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    border: 1px black solid;
+    width: 750px;
+}
+.italique_centre
+{
+    font-style: italic;
+    text-align: center;
+}
