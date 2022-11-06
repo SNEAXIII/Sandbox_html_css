@@ -1,0 +1,59 @@
+.styleBasique
+{
+    font-family: Courier News;
+    font-size: 12px;
+    text-align: justify;
+
+}
+h1
+{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    background: lightgoldenrodyellow;
+    color: red;
+
+}
+.informationsDocument
+{
+    font-family: Arial;
+    font-size: 16px;
+    color: violet;
+    text-align: center;
+    line-height:20px
+}
+.paragrapheType1
+{
+    font-family: Arial;
+    font-size: 11px;
+    text-indent : 20px;
+    margin: 25px 0;
+}
+.paragrapheType2
+{
+    font-family: "Times New Roman";
+    font-size: 12px;
+    font-style: italic;
+    text-indent : 20px;
+    margin: 25px 0;
+}
+
+.paragrapheType3
+{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+h2
+{
+    font-family: Arial;
+    font-size: 15px;
+    font-weight : bold;
+    color: blue;
+}
+
+.sousTitreNonNumerote
+{
+    font-size: 13px;
+    text-decoration: underline;
+}
