@@ -1,10 +1,3 @@
-.styleBasique
-{
-    font-family: Courier News;
-    font-size: 12px;
-    text-align: justify;
-
-}
 h1
 {
     font-family: Arial;
@@ -12,8 +5,29 @@ h1
     text-align: center;
     background: lightgoldenrodyellow;
     color: red;
-
 }
+h2
+ {
+     font-family: Arial;
+     font-size: 15px;
+     font-weight : bold;
+     color: blue;
+ }
+h3
+{
+    font-size: 13px;
+    text-decoration: underline;
+}
+li
+{
+    list-style-type: circle;
+}
+.styleBasique
+ {
+     font-family: Courier News;
+     font-size: 12px;
+     text-align: justify;
+ }
 .informationsDocument
 {
     font-family: Arial;
@@ -29,7 +43,6 @@ h1
     text-indent : 20px;
     margin: 25px 0;
 }
-/*de cette epoque*/
 .paragrapheType2
 {
     font-family: "Times New Roman";
@@ -37,7 +50,6 @@ h1
     font-style: italic;
     margin: 10px 1cm 20px 1cm;
 }
-
 .paragrapheType3
 {
     margin-bottom: 20px;
@@ -46,18 +58,5 @@ h1
 }
 .paragrapheType4
 {
-    color: blue;
-}
-h2
-{
-    font-family: Arial;
-    font-size: 15px;
-    font-weight : bold;
-    color: blue;
-}
-
-.sousTitreNonNumerote
-{
-    font-size: 13px;
-    text-decoration: underline;
+    color: lightblue;
 }
