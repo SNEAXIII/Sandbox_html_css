@@ -1,13 +1,13 @@
-*
+.texteBasique
 {
-    font-family: 'Courier New', sans-serif;
+    font-family: 'Courier New';
     font-size: 12px;
     text-align: justify;
 }
 
 h1
 {
-    font-family: Arial, sans-serif;
+    font-family: Arial ;
     font-size: 20px;
     color : red;
     text-align: center;
@@ -16,7 +16,7 @@ h1
 
 .auteur
 {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     font-size: 16px;
     color: purple;
     text-align: center;
@@ -26,7 +26,7 @@ h1
 
 .PremiersParagraphe
 {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     font-size: 11px;
     text-indent : 20px;
     margin-top:25px;
@@ -37,7 +37,7 @@ h1
 
 .ol
 {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     font-size: 15px;
     color: blue;
     font-weight: bold;
@@ -52,7 +52,7 @@ h1
 
 .deCetteEpoque
 {
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Times New Roman';
     font-size: 12px;
     font-style: italic;
     text-indent: 1cm;
