@@ -1,0 +1,84 @@
+*
+{
+    font-family: 'Courier New', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
+
+h1
+{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color : red;
+    text-align: center;
+    background-color: palegoldenrod;
+}
+
+.auteur
+{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: purple;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.PremiersParagraphe
+{
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    text-indent : 20px;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+
+
+.ol
+{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: blue;
+    font-weight: bold;
+}
+
+.ul
+{
+    font-size: 13px;
+    text-decoration: underline;
+
+}
+
+.deCetteEpoque
+{
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    text-indent: 1cm;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.paragraphePrincipale
+{
+    text-indent: 12px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.deuxParagraphe
+{
+    font-style: italic;
+    text-indent: 10px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.bleuClair0Retrait
+{
+    text-indent: 0px;
+    margin-top:10px;
+    margin-bottom:20px;
+    color: lightblue;
+}
