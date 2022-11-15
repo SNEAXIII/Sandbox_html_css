@@ -11,15 +11,26 @@ liste de font classique : Arial, Arial Black, Comic Sans MS, Courier New, Georgi
 box shadow: +x, -y, taille, couleur
 padding --> Marge interne
 margin --> Marge externe
-margin/padding: +y, +x, -y, -x
-margin/padding: +&-y, +&-x
-border: tailleContour, typeBord, couleur
-center un bloc : définir une taille avec margin : auto
+pour gérer les marges avec 4 coordonnées --> margin/padding: +y, +x, -y, -x
+pour gérer les marges avec 2 coordonnées --> margin/padding: +&-y, +&-x
+pour faire une bordure --> border: tailleContour, typeBord, couleur
+center en x un bloc : définir une taille avec margin : auto
 si le texte sort en y d'un bloc avec une taille prédéfinie --> overflow
 si le texte sort en x d'un bloc avec une taille prédéfinie --> word-wrap:break_word
 
+les flexbox {
+item-align : center -->
+flex : nb --> proportion d'étirement par rapport aux autres
 
-structure{
+}
+
+items dans la flexbox {
+.item:nth-child(nb) --> permet de selectionner un item dans une flex par rapport a son ordre dans le code
+margin: auto --> permet de centrer en x&y
+order : nb --> permet de choisir l'ordre d'un element dans une flexbox indépendamment du code
+}
+
+les structure{
 <header> : en-tête ;
 <footer> : pied de page ;
 <nav> : liens principaux de navigation ;
@@ -30,3 +41,6 @@ structure{
 
 liste balises : https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1608357-memento-des-balises-html
 strat ultime pour les croissants --> http://www.thelin.net/laurent/labo/html/mailto.html
+
+pour apprendre les grid --> https://cssgridgarden.com/
+pour apprendre les flexbox --> https://flexboxfroggy.com/

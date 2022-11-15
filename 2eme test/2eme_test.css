@@ -1,0 +1,41 @@
+.flexbox{
+    height: 200px;
+    width: 240px;
+    display: flex;
+    /*flex-direction: column;*/
+    border: black 1px solid;
+    margin: auto;
+    background: url("betatest.png") center ;
+    background-size: contain;
+}
+.flexbox:hover{
+    height: 750px;
+    width: 750px;
+}
+.item{
+    background: red;
+    font-size: 25px;
+    /*margin: auto;*/ /*a remettre*/
+    text-align: center;
+}
+
+.item:nth-child(1){
+    border: blue 1px dotted;
+    flex:1;
+    /*order:0;*/
+}
+.item:nth-child(2){
+    border: #e59900 1px solid;
+    margin: auto;/* a enlever*/
+    flex:1;
+    /*order: 0;*/
+}
+.item:nth-child(3){
+    border: #27b910 1px dotted;
+    flex: 1;
+    /*order: 0;*/
+}
+
+.item:hover{
+     flex: 1.2;
+ }
