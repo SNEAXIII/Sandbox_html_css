@@ -15,7 +15,7 @@
 .item{
     background: red;
     font-size: 25px;
-    /*margin: auto;*/ /*a remettre*/
+    margin: auto;
     text-align: center;
 }
 
@@ -26,7 +26,7 @@
 }
 .item:nth-child(2){
     border: #e59900 1px solid;
-    margin: auto;/* a enlever*/
+    /*margin: auto;!* a enlever*!*/
     flex:1;
     /*order: 0;*/
 }

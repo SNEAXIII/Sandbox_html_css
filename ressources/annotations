@@ -18,7 +18,19 @@ center en x un bloc : définir une taille avec margin : auto
 si le texte sort en y d'un bloc avec une taille prédéfinie --> overflow
 si le texte sort en x d'un bloc avec une taille prédéfinie --> word-wrap:break_word
 
+les grilles {
+display: grid --> afficher sous la forme de grille
+grid-template-columns: 20% 20% 20% 20% 20% --> pour générer 5 colones de taille égale
+grid-template-rows: 20% 20% 20% 20% 20% --> pour générer 5 lignes de taille égale
+grid-[row|column]-start: nb --> sélectionne la nb colonne/ligne du début
+grid-[row|column]-end: nb+1 --> sélectionne la nb colonne/ligne de la fin
+grid-[row|column]: nb1/nb2+1 --> sélectionne de nb1 a nb2
+grid-area: y1/x1+1/y2/x2+1 --> sélectionne de la ligne y1 à la y2 et de la colonne x1 à la x2
+nbfr --> coef similaire a "flex : nb"
+}
+
 les flexbox {
+display : flex --> afficher sous la forme de flexbox
 item-align : center -->
 flex : nb --> proportion d'étirement par rapport aux autres
 
