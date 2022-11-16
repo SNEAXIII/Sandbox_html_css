@@ -22,7 +22,7 @@
 .item:nth-child(1){
     border: blue 1px dotted;
     flex:1;
-    /*order:0;*/
+    order:-1;
 }
 .item:nth-child(2){
     border: #e59900 1px solid;
