@@ -3,16 +3,21 @@ body
     background: repeat linear-gradient(270deg, rgb(124, 190, 210) 33%, rgb(27, 156, 215) 66%, rgb(7, 89, 115) 100%);
 }
 
+.border
+{
+    border: dashed 20px orange;
+    margin:30px 30px ;
+}
+
 .article_1
 {
     background: red border-box;
-    border: dashed 20px gray;
 }
 .article_2
 {
-    background: #07363b;
+    background: #07363b border-box;
 }
 .article_3
 {
-    background: #4bde1d;
+    background: #4bde1d border-box;
 }
