@@ -17,7 +17,7 @@ h2
      font-weight : bold;
      color: blue;
 }
-h2:active
+h1:active,h2:active
 {
     text-decoration: underline;
 }
@@ -76,13 +76,4 @@ p:hover
 
 .listeSansPuce {
     list-style-type: none;
-}
-a[href*="www"],._bold
-{
-    font-weight: bold;
-}
-.cadre {
-    border: 1px black solid;
-    width: 400px;
-    padding: 5px 0 0 10px;
 }

@@ -1,0 +1,22 @@
+html
+{
+    background: repeat url("feuilles.png");
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: arial;
+}
+body
+{
+    background: fixed top no-repeat url("pingouin.png")
+}
+h1
+{
+    color: aqua;
+    font-size: 45px;
+}
+h2
+{
+    color: blue;
+    font-size: 32px;
+}
