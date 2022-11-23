@@ -1,6 +1,8 @@
 body
 {
     background: repeat linear-gradient(270deg, rgb(124, 190, 210) 33%, rgb(27, 156, 215) 66%, rgb(7, 89, 115) 100%);
+    text-shadow: 6px 6px 6px black;
+    color: white;
 }
 
 .border
@@ -15,9 +17,11 @@ body
 }
 .article_2
 {
-    background: #07363b border-box;
+    background: #07363b padding-box;
 }
 .article_3
 {
-    background: #4bde1d border-box;
+    background: #4bde1d content-box;
+    /*margin: 10px 10px;*/
 }
+
