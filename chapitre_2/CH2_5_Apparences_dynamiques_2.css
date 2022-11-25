@@ -1,0 +1,18 @@
+.listeSansPuce {
+    list-style-type: none;
+}
+a[href*="www"],._bold
+{
+    font-weight: bold;
+}
+.cadre {
+    border: 1px black solid;
+    width: 400px;
+    padding: 5px 0 0 10px;
+}
+
+a:hover,a:active,a:visited
+{
+    color: blue;
+
+}
