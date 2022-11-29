@@ -1,0 +1,32 @@
+.flexbox
+{
+    width: 95%;
+    display: flex;
+    margin: auto;
+    background: rgba(255, 0, 0, 0.46);
+}
+nav
+{
+    position: relative;
+    right: 0;
+    justify-content:flex-end;
+}
+.item
+{
+    font-size: 20px;
+    /*margin:auto;*/
+    text-align: center;
+    background: rgba(142, 210, 232, 0.75);
+    /*background: rgba(38, 153, 187, 0.75);*/
+    border-radius: 10px;
+    color:red;
+    flex:1;
+    max-width: 150px;
+    margin: 4px 10px 4px 10px;
+    font-family: "Heroes Legend";
+}
+#pp
+{
+    size: 50px;
+    border-radius: 26px ;
+}

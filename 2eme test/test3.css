@@ -1,0 +1,30 @@
+.boite
+{
+    display: block;
+    width: 1000px;
+    height: 1000px;
+}
+
+.heroLegendHollow
+{
+    font-family: "Heroes Legend Hollow";
+    font-size: 20px;
+    position: absolute;
+    left:0px;
+    background: -webkit-linear-gradient(red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin:0;
+    z-index: 1;
+    /*width:100%;*/
+
+}
+.heroLegendBack
+{
+    font-size: 20px;
+    position: absolute;
+    left:1px;
+    font-family: "Heroes Legend";
+    color: blue;
+    z-index: 0;
+}

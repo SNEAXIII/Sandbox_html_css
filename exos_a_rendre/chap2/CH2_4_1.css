@@ -13,15 +13,19 @@ body
 
 .article_1
 {
-    background: red border-box;
+    background: no-repeat url("pingouin.png") red border-box;
+    background-size: contain;
 }
 .article_2
 {
-    background: #07363b padding-box;
+    background: no-repeat url("pingouin.png") #07363b padding-box;
+    background-size: contain;
 }
 .article_3
 {
-    background: #4bde1d content-box;
+    background: no-repeat url("pingouin.png") #4bde1d content-box;
+    background-size: contain;
+    padding: 10px;
     /*margin: 10px 10px;*/
 }
 
