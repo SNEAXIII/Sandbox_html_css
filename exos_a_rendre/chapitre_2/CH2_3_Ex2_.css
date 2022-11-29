@@ -1,0 +1,16 @@
+body
+{
+    background:no-repeat url(pingouin.png) red top;
+    background-size: 50%;
+}
+article
+{
+    background:no-repeat url(pingouin.png) rgba(55, 255, 0, 0.71) top;
+    background-size: 14%;
+    margin: 0 10px;
+}
+section
+{
+    background: rgba(55, 255, 0, 0.71);
+    padding: 0 10px;
+}
