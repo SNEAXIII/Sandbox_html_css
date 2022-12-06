@@ -1,0 +1,37 @@
+.flexboxImage
+{
+    display: flex;
+
+}
+.cadreImage
+{
+    width: ;
+}
+main
+{
+    position: relative;
+    margin: 10px;
+    width: 95%;
+}
+
+.imageIllustration
+{
+
+    position:relative;
+    width: 100%;
+    height: auto;
+    transition:position 500ms, width 500ms, margin 500ms,left 500ms,right 500ms,top 500ms, bottom 500ms;
+}
+.imageIllustration:active
+{
+    /*position: absolute;*/
+    margin:auto auto;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+
+    width: 70%;
+
+}
