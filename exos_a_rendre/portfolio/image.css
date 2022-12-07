@@ -2,17 +2,24 @@ html{
     background: green;
     z-index: 0;
 }
-.flexboxSection
+section
 {
-    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+article
+{
+    width: 450px;
     display: flex;
     flex-direction: column;
+    border: chocolate 2px dotted;
 }
 .cadreImage
 {
     width: 100%;
-    height: 400px;
-    border: 1px solid black
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
 }
 main
 {
@@ -20,40 +27,53 @@ main
     /*position: relative;*/
     margin: 10px;
     width: 95%;
+    height: auto;
 }
 
 .imageIllustration
 {
+    margin:auto;
+    /*position: relative;*/
+    border: solid 1px white;
     /*position:relative;*/
-    width: 100%;
+    width: 400px;
     height: auto;
-    transition-property: width;
+    transition-property: scale;
     transition-duration: 500ms;
     transition-delay: 100ms;
-    /*animation-name: anim;*/
-    /*animation-duration: 500ms;*/
-    /*transition-delay: width 2s;*/
+    animation-name: anim;
+    animation-duration: 600ms;
+
+    /*left: auto;*/
+    /*right: auto;*/
+    /*bottom: auto;*/
+    /*top: auto;*/
 }
 .imageIllustration:active
 {
 
     position: absolute;
-    margin:auto;
+
     left: 0;
     right: 0;
     bottom: 0;
     top: 0;
-    width: 70%;
+    /*width: 1080px;*/
+    scale: 2.5;
     /*z-index: -1;*/
 }
 .titreDescription
 {
-    color: red;
-    margin: auto    ;
+    padding: 5px 0;
+    color: white;
+    font-size: 0.7em;
+    font-family: "Heroes Legend", serif;
+    margin: auto;
+    text-align: center;
 }
-/*@keyframes anim*/
-/*{*/
-/*    0% {z-index: -1}*/
-/*    100% {z-index: 1}*/
+@keyframes anim
+{
+    0% {z-index: -1}
+    100% {z-index: 1}
 
-/*}*/
+}
