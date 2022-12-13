@@ -17,6 +17,7 @@ pour faire une bordure --> border: tailleContour, typeBord, couleur
 center en x un bloc : définir une taille avec margin : auto
 si le texte sort en y d'un bloc avec une taille prédéfinie --> overflow
 si le texte sort en x d'un bloc avec une taille prédéfinie --> word-wrap:break_word
+justifier --> text-align: justify;
 
 les grilles {
 display: grid --> afficher sous la forme de grille

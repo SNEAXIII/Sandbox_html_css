@@ -71,9 +71,9 @@ main
     margin: auto;
     text-align: center;
 }
-@keyframes anim
-{
-    0% {z-index: -1}
-    100% {z-index: 1}
+/*@keyframes anim*/
+/*{*/
+/*    0% {z-index: -1}*/
+/*    100% {z-index: 1}*/
 
-}
+/*}*/
