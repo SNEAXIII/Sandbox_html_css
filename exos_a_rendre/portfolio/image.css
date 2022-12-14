@@ -4,30 +4,42 @@
 /*}*/
 section
 {
+    margin: 20px 0;
+    font-size: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    /*font-family: 'Roboto Flex', sans-serif;*/
+}
+h1
+{
+    padding: 20px 0;
+    /*display:inline;*/
+    margin: auto;
+    text-align: center ;
+}
+main
+{
+    /*border: solid 1px red;*/
+    /*position: relative;*/
+    margin: auto;
+    width: 95%;
+    height: auto;
 }
 article
-{
-    width: 450px;
-    display: flex;
-    flex-direction: column;
-    border: chocolate 2px dotted;
-}
+ {
+     display: flex;
+     width: 600px;
+     flex-direction: column;
+     /*border: chocolate 2px dotted;*/
+     color: white;
+    font-weight: bold;
+ }
 .cadreImage
 {
     width: 100%;
     height: 300px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: flex;
-}
-main
-{
-    border: solid 1px red;
-    /*position: relative;*/
-    margin: 10px;
-    width: 95%;
-    height: auto;
 }
 
 .imageIllustration
@@ -36,44 +48,52 @@ main
     /*position: relative;*/
     border: solid 1px white;
     /*position:relative;*/
-    width: 400px;
-    height: auto;
+    width: auto;
+    height: 300px;
     transition-property: scale;
     transition-duration: 500ms;
     transition-delay: 100ms;
-    animation-name: anim;
-    animation-duration: 600ms;
-
-    /*left: auto;*/
-    /*right: auto;*/
-    /*bottom: auto;*/
-    /*top: auto;*/
+    cursor: pointer;
 }
 .imageIllustration:active
 {
-
+    cursor: pointer;
     position: absolute;
-
     left: 0;
     right: 0;
     bottom: 0;
     top: 0;
-    /*width: 1080px;*/
-    scale: 2.7;
-    /*z-index: -1;*/
+    scale: 2.3;
 }
 .titreDescription
 {
-    padding: 5px 0;
-    color: white;
-    font-size: 0.7em;
-    font-family: "Heroes Legend", serif;
+    text-decoration: underline;
+    padding: 15px 0;
+    font-size: 1.7em;
     margin: auto;
     text-align: center;
 }
-/*@keyframes anim*/
-/*{*/
-/*    0% {z-index: -1}*/
-/*    100% {z-index: 1}*/
-
-/*}*/
+.languageUtilise{
+    text-decoration: underline;
+    padding: 10px 0;
+    margin: auto;
+    font-size: 1.2em;
+    text-align: center;
+    /*color: #000000;*/
+}
+.infoBonus{
+    text-decoration: underline;
+    display: block;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 15px auto;
+    font-size: 1.2em;
+    text-align: center;
+    color: #ffffff;
+    background: rgba(0, 177, 255, 0.25);
+    transition: background 200ms;
+}
+.infoBonus:hover{
+    background: rgba(0, 51, 255, 0.54);
+}

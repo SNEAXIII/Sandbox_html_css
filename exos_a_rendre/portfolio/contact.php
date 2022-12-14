@@ -1,3 +1,4 @@
+<?php require "header.php" ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -6,16 +7,6 @@
     <title>Portefolio</title>
 </head>
 <body>
-<header class="flexbox">
-    <img id="pp" src="pp_ggle.jpg" alt="hehe">
-    <nav class="flexbox">
-        <a href="main.html" class="item pageActuelle">Accueil</a>
-        <a href="projets.html" class="item">Projets</a>
-        <a href="curriculumVitae.html" class="item">C.V.</a>
-        <a href="certifications.html" class="item">certifications</a>
-        <a href="veilleTechnologique.html" class="item">Veille Techno</a>
-        <a href="contact.html" class="item">Contact</a>
-    </nav>
-</header>
+<?php afficheHeader("Accueil")?>
 </body>
 </html>

@@ -1,22 +1,8 @@
-a
-{
-    text-decoration: unset;
-}
-
-body
-{
-    /*https://www.heroscreen.cc/2021/02/laptop-wallpaper-1080p.html*/
-    /*background: url(wallpaper.jpg) no-repeat;*/
-    /*background-size:100%;*/
-    margin-top: 20px;
-}
 .flexbox
 {
     width: 95%;
     display: flex;
-
     margin: auto;
-
     /*background: rgba(255, 0, 0, 0.46);*/
 }
 nav
@@ -36,7 +22,6 @@ nav
 }
 .item
 {
-
     cursor: pointer ;
     /*border: solid 3px black;*/
     font-size: 0.8em;
@@ -48,8 +33,6 @@ nav
     margin: 4px 10px ;
     font-family: "Heroes Legend", serif;
     transition: color 300ms;
-
-
 }
 .item:hover
 {
@@ -64,7 +47,6 @@ nav
     border-radius: 26px ;
     margin:0 15px 10px 0
 }
-
 /*.pageActuelle*/
 /*{*/
 /*    border: solid 3px #014150;*/
